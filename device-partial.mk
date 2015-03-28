@@ -27,11 +27,11 @@ PRODUCT_COPY_FILES += \
     
 #keymaster
     PRODUCT_COPY_FILES += \
-    vendor/lge/mako/vendor/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00:lge \
-    vendor/lge/mako/vendor/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01:lge \
-    vendor/lge/mako/vendor/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02:lge \
-    vendor/lge/mako/vendor/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03:lge \
-    vendor/lge/mako/vendor/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt:lge 
+    vendor/lge/mako/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00:lge \
+    vendor/lge/mako/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01:lge \
+    vendor/lge/mako/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02:lge \
+    vendor/lge/mako/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03:lge \
+    vendor/lge/mako/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt:lge 
     
 # Qualcomm blob(s) necessary for Mako hardware
 #bin
@@ -74,7 +74,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02:qcom \
     vendor/lge/mako/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03:qcom \
     vendor/lge/mako/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt:qcom \
-    vendor/lge/mako/etc/firmware/DxHDCP.cfg:system/etc/DxHDCP.cfg:qcom 
+    vendor/lge/mako/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg:qcom 
     
 #lib\hw
     PRODUCT_COPY_FILES += \
