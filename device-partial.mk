@@ -223,6 +223,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so:qcom \
     vendor/lge/mako/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so:qcom 
     
+#new files in 5.1
+    PRODUCT_COPY_FILES += \
+    vendor/lge/mako/lib/libpcre.so:system/lib/libpcre.so:qcom \
+    vendor/lge/mako/lib/libserviceutility.so:system/lib/libserviceutility.so:qcom 
 
 PRODUCT_PACKAGES += libacdbloader
 
